@@ -1,3 +1,10 @@
+<?php
+if($_POST["message"]) {
+    mail("missionviejochessclub@gmail.com", "Contact Form Message",
+    $_POST["message here"]. "From: user@email.com");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
