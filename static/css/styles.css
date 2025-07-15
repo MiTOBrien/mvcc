@@ -1,6 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: #9298d1;
-  color: #e6fcff;
+  background-color: #2d2d2d;
+  color: #f5f5f5;
   font-family: "Open Sans", sans-serif;
   margin-left: 25px;
   margin-right: 25px;
@@ -14,11 +20,11 @@ h3 {
 }
 
 h2 {
-  color: #3046c5;
+  color: #d4af37;
 }
 
 header h2 {
-  color: #cec8ff;
+  color: #c9a96e;
 }
 
 h3 {
@@ -26,7 +32,7 @@ h3 {
 }
 
 footer {
-  background-image: linear-gradient(#cec8ff, white);
+  background-image: linear-gradient(#404040, #2d2d2d);
   padding: 20px 0;
 }
 
@@ -44,16 +50,32 @@ iframe {
 .jumbotron {
   margin: -25px;
   padding: 30px;
-  background-image: linear-gradient(to right, #92a8d1, #9299db, #7b9cce);
-  color: white;
+  background-image: linear-gradient(to right, #2d2d2d, #404040, #1a1a1a);
+  color: #f5f5f5;
+}
+
+.jumbotron .container {
+  padding-left: 0;
+}
+
+.jumbotron .col {
+  text-align: center;
+}
+
+.jumbotron .col-4 {
+  padding-left: 0;
+}
+
+.jumbotron .col-4 img {
+  margin-left: 0;
 }
 
 .row-content {
   padding: 50px 0;
-  border-bottom: 1px ridge;
+  border-bottom: 1px ridge #8b4513;
   min-height: 200px;
 }
 
 .navbar {
-  background-image: linear-gradient(#92a8d1, #9299db, #7b9cce);
+  background-image: linear-gradient(#2d2d2d, #404040, #1a1a1a);
 }
